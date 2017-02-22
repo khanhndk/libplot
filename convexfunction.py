@@ -35,6 +35,7 @@ plt.annotate('$f(x)$',xy=(a,fa),xytext=(a,fa+0.5))
 plt.annotate('$f(y)$',xy=(b,fb),xytext=(b-0.5,fb))
 plt.annotate('$f(\\alpha x+(1-\\alpha)y)$',xy=(m,fm),xytext=(m+0.1,fm-0.3))
 plt.annotate('$\\alpha f(x)+(1-\\alpha)f(y)$',xy=(m,right_hand),xytext=(m+0.2,right_hand-0.2))
+plt.annotate('$\\geq 0$',xy=(m,fm+1),xytext=(m,fm+1))
 
 ax.set_xticks((a, m, b))
 ax.set_xticklabels(('$x$', '$\\alpha x+(1-\\alpha)y$' , '$y$'))
