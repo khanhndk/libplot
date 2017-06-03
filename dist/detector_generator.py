@@ -44,5 +44,7 @@ g1 = g1.plot_joint(sns.kdeplot, color='r', alpha=0.5, shade=True, cmap='Blues')
 g1.plot_marginals(sns.kdeplot, shade=True)
 l1 = len(g1.ax_joint.collections)
 # g1.ax_joint.collections[l1].set_alpha(0)
+g1.ax_marg_y.legend_.remove()
+g1.ax_marg_x.legend_.remove()
 
 plt.show()
